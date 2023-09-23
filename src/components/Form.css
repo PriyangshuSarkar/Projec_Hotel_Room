@@ -1,0 +1,24 @@
+/* Form.css */
+
+/* Center the card horizontally and vertically */
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Apply a blur effect to the background */
+  }
+  
+  /* Optional: Adjust the card's width and style */
+  .card {
+    width: 400px; /* Adjust the width as needed */
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+  }
+  
+  .card-title {
+    text-align: center; /* Center the title text */
+  }
+  
